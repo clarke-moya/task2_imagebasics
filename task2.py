@@ -50,7 +50,7 @@ I = cv2.imread(f)
 Original=I.copy()#keep a copy
  
 #displaying image 
-cv2.namedWindow("image")
-cv2.imshow("image",I)
-cv2.setMouseCallback("drawWindow",draw)
+cv2.namedWindow("drawwindow")
+cv2.imshow("drawwindow",I)
+cv2.setMouseCallback("drawwindow",draw)
 key = cv2.waitKey(0)
